@@ -34,7 +34,7 @@ nav{
     cursor: pointer;
 }
 .logo-span{
-    color: blue;
+    color: crimson;
 }
 nav ul li{
     list-style-type:none;
@@ -48,7 +48,7 @@ nav ul li a{
     text-transform: capitalize;
 }
 nav ul li a:hover{
-    color: blue;
+    color: crimson;
     transition: .4s;
 }
 
@@ -56,7 +56,7 @@ li{
     cursor: pointer;
 }
 .btn{
-    background-color: blue;
+    background-color: crimson;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -67,4 +67,52 @@ li{
 }
 .btn:hover{
     transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: crimson;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form{
+width: 380px;
+max-width: 100%;
+position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid crimson;
+    outline: none;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+    
 }
