@@ -45,17 +45,23 @@ span{
 nav ul li{
     list-style-type:none;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 6px;
+}
+.do{
+    width: 90px;
+    text-align: center;
+    display: inline-block;
 }
 
 nav ul li a{
     color: white;
     font-weight: bold;
-    /* padding: 7px 7px; */
+    padding: 6px 6px;
     text-transform: capitalize;
 }
 nav ul li a:hover{
     color: crimson;
+    
     background-color: white;
     border-radius: 4px;
     transition: .4s;
